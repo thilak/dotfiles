@@ -1,0 +1,2 @@
+bind main H !git checkout %(commit)
+bind main R !git rebase -i %(commit)

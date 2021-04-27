@@ -1,38 +1,38 @@
 # core {{{
 [core]
     editor = vim
-    excludesfile = ~/repos/dotfiles/.gitignore.inc
+    excludesfile = ~/.config/git/gitignore.inc
     pager=less -x4
+    autocrlf=input
 
 #}}}
 
 [credential]
-    helper = cache --timeout=3600
+    credentialStore = gpg
 
 # color {{{
-#[color]
-#    branch = auto
-#    diff = auto
-#    status = auto
-#
-#[color "branch"]
-#    current = red reverse
-#    local = blue
-#    remote = green
-#
-#[color "diff"]
-#    meta = yellow
-#    frag = magenta
-#    old = red bold
-#    new = green
-#    plain = white
-#
-#[color "status"]
-#    added = yellow
-#    changed = green
-#    untracked = cyan
+[color]
+    branch = auto
+    diff = auto
+    status = auto
 
-# }}}
+[color "branch"]
+    current = red reverse
+    local = blue
+    remote = green
+
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red bold
+    new = green
+    plain = white
+
+[color "status"]
+    added = green
+    changed = red
+    untracked = yellow
+#}}}
 # push/pull/diff/options {{{
 [push]
     default = simple
@@ -83,7 +83,7 @@
     filelog = log -u
     # }}}
     # diff {{{
-    d = diff --word-diff
+    d = diff --word-diff=color
     dc = diff --cached
     # diff last commit
     dlc = diff --cached HEAD^
