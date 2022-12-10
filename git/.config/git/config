@@ -1,6 +1,5 @@
 # core {{{
 [core]
-    editor = vim
     excludesfile = ~/.config/git/gitignore.inc
     pager=less -x4
     autocrlf=input

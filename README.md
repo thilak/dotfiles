@@ -3,7 +3,6 @@ Will perform:
 * Install of apt packages
 * Install of tmux plugin manager
 * Install of antigen
-* Setup git config username and email
 * Stow config files
 ```
 ./install.sh
@@ -12,7 +11,7 @@ Will perform:
 # Install a nerd font for use in powerlevel10k
 On windows right click and install, on ubuntu install font-manager and then install or copy and run fontcache.
 
-For example: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip
+For example: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/DroidSansMono.zip
 
 # Tmux plugins
 Install tmux plugins by starting tmux and press "Ctrl+Space" + I (capital I, as in Install)
