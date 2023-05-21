@@ -27,7 +27,7 @@ mkdir -p ~/.local/share/tig
 mkdir -p ~/.local/state/zsh
 
 # Install config files
-stow -vt ~ */
+stow -v --no-folding -t ~ */
 
 # Git config
 # git config --global user.name ""
