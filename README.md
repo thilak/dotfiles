@@ -11,7 +11,7 @@ Will perform:
 # Install a nerd font for use in powerlevel10k
 On windows right click and install, on ubuntu install font-manager and then install or copy and run fontcache.
 
-For example: https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/DroidSansMono.zip
+For example: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
 
 # Tmux plugins
 Install tmux plugins by starting tmux and press "Ctrl+Space" + I (capital I, as in Install)
@@ -29,8 +29,8 @@ bindkey | fzf
 
 ## TMUX
 ctrl + space - prefix
-prefix + F - tmux-fzf, can list keybindings here 
-prefix + ? - tmux-fuzzback 
+prefix + F - tmux-fzf, can list keybindings here
+prefix + ? - tmux-fuzzback
 
 # fzf
 CTRL-T - Paste the selected files and directories onto the command-line
