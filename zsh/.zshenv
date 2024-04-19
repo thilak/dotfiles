@@ -1,3 +1,7 @@
+# Make path only have unique entries, add local bin folder
+typeset -U path
+path+=~/.local/bin
+
 # Set vim as default editor
 export EDITOR=nvim
 
@@ -10,9 +14,8 @@ export HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/histfile"
 # Set antigen default dir
 export ADOTDIR="${XDG_DATA_HOME:-$HOME/.local/share}/antigen"
 
-# Make path only have unique entries, add local bin folder
-typeset -U path
-path+=~/.local/bin
+# Rip grep config
+export RIPGREP_CONFIG_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
 
-# Uncomment to enable for git credentials manager in headless environment (WSL) 
+# Uncomment to enable for git credentials manager in headless environment (WSL)
 #export GPG_TTY=$TTY
