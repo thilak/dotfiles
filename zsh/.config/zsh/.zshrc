@@ -40,3 +40,5 @@ bindkey "^[o" fzf-cd-widget
 # OMZ sets share history, remove it
 unsetopt share_history
 
+# Source aliases if exists
+[[ ! -f $ZDOTDIR/.aliases.zsh ]] || source $ZDOTDIR/.aliases.zsh
