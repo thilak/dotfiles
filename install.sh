@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # General tools
-sudo apt install git tig tmux zsh pass stow neovim curl fzf ripgrep fd-find python3-pip python-is-python3
+sudo apt install git tig tmux xsel zsh pass stow neovim curl fzf ripgrep fd-find python3-pip python-is-python3
 
 # link fdfind to fd
 mkdir -p ~/.local/bin
