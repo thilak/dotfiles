@@ -11,9 +11,6 @@ export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
 # Set history file path
 export HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/histfile"
 
-# Set antigen default dir
-export ADOTDIR="${XDG_DATA_HOME:-$HOME/.local/share}/antigen"
-
 # Rip grep config
 export RIPGREP_CONFIG_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
 

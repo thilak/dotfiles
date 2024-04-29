@@ -17,8 +17,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.local/share/tmux/plugins/tpm
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 
 # Get antigen
-mkdir -p ~/.local/share/antigen
-curl -L git.io/antigen > ~/.local/share/antigen/antigen.zsh
+git clone --depth=1 https://github.com/mattmc3/antidote.git ~/.local/share/antidote
 
 # Avoid tig to write ~/.tig_history
 mkdir -p ~/.local/share/tig
