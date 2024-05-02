@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # General tools
-sudo apt install git tig tmux xsel zsh pass stow neovim curl fzf ripgrep fd-find python3-pip python-is-python3
+sudo apt install git tig tmux xsel zsh kitty pass stow neovim curl fzf ripgrep fd-find python3-pip python-is-python3
 
 # link fdfind to fd
 mkdir -p ~/.local/bin
@@ -14,7 +14,8 @@ sudo apt install grc chroma
 git clone https://github.com/tmux-plugins/tpm ~/.local/share/tmux/plugins/tpm
 
 # Get AstroNvim
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+rm -rf ~/.config/nvim/.git
 
 # Get antigen
 git clone --depth=1 https://github.com/mattmc3/antidote.git ~/.local/share/antidote
