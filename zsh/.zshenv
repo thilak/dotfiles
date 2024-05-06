@@ -1,6 +1,9 @@
+# Load .profile if it exists
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
+
 # Make path only have unique entries, add local bin folder
 typeset -U path
-path+=~/.local/bin
+path+=/snap/bin
 
 # Set vim as default editor
 export EDITOR=nvim
