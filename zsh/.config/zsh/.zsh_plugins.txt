@@ -8,6 +8,8 @@ ohmyzsh/ohmyzsh path:plugins/fzf
 ohmyzsh/ohmyzsh path:plugins/grc
 ohmyzsh/ohmyzsh path:plugins/colorize
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/jira
+ohmyzsh/ohmyzsh path:plugins/jfrog
 
 # general plugins
 zsh-users/zsh-completions

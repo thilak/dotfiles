@@ -3,9 +3,8 @@
 # General tools
 sudo apt install git tig tmux xsel zsh kitty pass stow neovim curl fzf ripgrep fd-find python3-pip python-is-python3
 
-# link fdfind to fd
+# make bin folder
 mkdir -p ~/.local/bin
-ln -s $(which fdfind) ~/.local/bin/fd
 
 # Coloring support
 sudo apt install grc chroma
