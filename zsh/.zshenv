@@ -4,6 +4,7 @@
 # Make path only have unique entries, add local bin folder
 typeset -U path
 path+=/snap/bin
+path+=~/.dotnet/tools
 
 # Set vim as default editor
 export EDITOR=nvim
