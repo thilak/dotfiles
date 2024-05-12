@@ -3,11 +3,13 @@ ohmyzsh/ohmyzsh path:lib
 
 # omz plugins
 ohmyzsh/ohmyzsh path:plugins/ssh-agent
-ohmyzsh/ohmyzsh path:plugins/repo
 ohmyzsh/ohmyzsh path:plugins/fzf
 ohmyzsh/ohmyzsh path:plugins/grc
 ohmyzsh/ohmyzsh path:plugins/colorize
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/magic-enter
+ohmyzsh/ohmyzsh path:plugins/per-directory-history
+ohmyzsh/ohmyzsh path:plugins/tmux
 ohmyzsh/ohmyzsh path:plugins/jira
 ohmyzsh/ohmyzsh path:plugins/jfrog
 
