@@ -23,6 +23,14 @@ alias ls="grc --colour=auto ls --color"
 bindkey -r "^[c"
 bindkey "^[o" fzf-cd-widget
 
+# Disable autocd, annoying when sometimes tabbing for executables
+unsetopt autocd
+# Add back the ability to use `..` to go up a directory
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
 # Source aliases if exists
 [[ ! -f $ZDOTDIR/.aliases.zsh ]] || source $ZDOTDIR/.aliases.zsh
 
