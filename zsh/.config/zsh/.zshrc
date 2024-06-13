@@ -22,6 +22,8 @@ alias ls="grc --colour=auto ls --color"
 # fzf cd command is alt+c, which is hard to press. rebind to alt+o
 bindkey -r "^[c"
 bindkey "^[o" fzf-cd-widget
+# fzf default to multiselection
+export FZF_DEFAULT_OPTS="--multi"
 
 # Disable autocd, annoying when sometimes tabbing for executables
 unsetopt autocd
