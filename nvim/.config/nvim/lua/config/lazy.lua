@@ -13,8 +13,6 @@ require("lazy").setup({
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
         -- import/override with your plugins
         { import = "lazyvim.plugins.extras.coding.mini-comment" },
-        { import = "lazyvim.plugins.extras.coding.copilot" },
-        { import = "lazyvim.plugins.extras.coding.copilot-chat" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.omnisharp" },
