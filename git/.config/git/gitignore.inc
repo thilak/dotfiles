@@ -304,7 +304,7 @@ __pycache__/
 OpenCover/
 
 # VSCode
-.vscode/
+.vscode/*
 
 # eclipse
 .settings/
